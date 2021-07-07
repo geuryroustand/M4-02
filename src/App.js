@@ -1,18 +1,19 @@
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNavbar from './MyNavbar';
-import Footer from './Footer';
+import MyNavbar from './components/MyNavbar';
+import MyFooter from './components/MyFooter';
+import LatestRelease from './components/LatestRelease';
+import Jumbotron from './components/Jumbotron';
 import './App.css';
 
 function App() {
   return (
-   <>
-   <MyNavbar />  
-   <Footer />  
+    <>
+      <MyNavbar />
+      <Jumbotron />
+      <LatestRelease />
 
-   </>
-
-
+      <MyFooter />
+    </>
   );
 }
 
